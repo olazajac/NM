@@ -1,0 +1,25 @@
+.header-icons {
+  position: absolute;
+  height: 65px;
+  bottom: 0;
+  right: 0;
+  display: none;
+  align-items: center;
+}
+@media (min-width: 1100px) {
+  .header-icons {
+    display: flex;
+  }
+}
+.header-icons a:nth-of-type(2) {
+  margin-left: 10px;
+}
+.site-header .site-branding {
+  width: auto!important;
+}
+
+@media (max-width: 1100px) {
+  .site-header .custom-logo-link img {
+    margin-top: 7px;
+  }
+}
